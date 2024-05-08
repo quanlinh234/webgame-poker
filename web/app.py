@@ -27,4 +27,4 @@ def anh():
     return send_from_directory(app.root_path + '/anh', 'a.jpg')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8080)
